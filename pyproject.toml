@@ -1,0 +1,15 @@
+[project]
+name = "genstorbosse-nrel"
+version = "0.1.0"
+description = "GenStorBOSSE cost model"
+requires-python = ">=3.10"
+
+dependencies = [
+    "numpy",
+    "pandas",
+    "jupyterlab"
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
